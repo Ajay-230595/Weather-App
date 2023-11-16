@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(135deg, #070d3f, #11031d); */
+   background: #fff;
+    /* background: #c5c5c5; */
+    /* background-color: #222;  */
+    /* background-color: #aae1ee;
+    background-color: #5fc6ba; */
+}
+
+ .card {
+    width: 90%;
+    max-width: 470px;
+    /* height: 500px; */
+    background: linear-gradient(135deg, #00feba, #8d86bc);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 12vh auto;
+    border: 3px solid white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    /* background-color: rgb(99, 99, 227);
+    max-width: fit-content;
+    margin: auto; */
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 25px; */
+    margin: 20px 35px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    flex: 1;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 6px 6px;
+    color: #555;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+.search button img {
+    height: 50%;
+}
+
+.weather {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.weather img {
+    height: 100px;
+}
+.weather :nth-child(2){
+    font-size: 45px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    height: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+}
+.col :nth-child(2){
+    font-size: 20px;
+}
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+    display: none;
+}
+.weather{
+    display: none;
+}
