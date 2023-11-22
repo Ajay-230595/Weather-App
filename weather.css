@@ -120,3 +120,40 @@ h1{
 .weather{
     display: none;
 }
+
+
+
+
+
+/* ---------------------Media query started--------------------- */
+
+
+@media (max-width: 799px){
+
+}
+
+
+
+/* ---------------------Mobile Phone Media query started--------------------- */
+
+
+@media (max-width: 477px){
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;        
+    }
+   
+    .search button {
+        border-radius: 25px;
+        height: 50px;
+        width: 100px;
+        margin-top: 25px;
+        /* background-color: #088178; */
+    }
+    .search button img {
+       height: 65%;
+    }
+ 
+}
